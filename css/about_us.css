@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #4996ff;
+    background-color: #f05f40;
 }
 
 .bg-dark {
@@ -158,7 +158,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #f05f40;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -177,20 +177,29 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/a380_main.jpg);
+    color: #ffffff;
+    background-image: url(../img/about_us_img4.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+   /*
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+    */
 }
+
 
 header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    
 }
 
 header .header-content .header-content-inner h1 {
@@ -238,6 +247,8 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
+
+
 
 .section-heading {
     margin-top: 0;
@@ -385,9 +396,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #4996ff;
+    border-color: #f05f40;
     color: #fff;
-    background-color: #4996ff;
+    background-color: #f05f40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
